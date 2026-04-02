@@ -61,13 +61,13 @@ function renderData(dataWeather) {
 
          <div class="card-box">
             <i class="fa-solid fa-temperature-high max"></i>
-            <h6>Max Temperature</h6>
+            <h6>Maximum Temperature</h6>
             <h3>${dataWeather.main.temp_max}<sup>°</sup>C</h3>
         </div>
 
          <div class="card-box">
             <i class="fa-solid fa-temperature-low min"></i>
-            <h6> Min Temperature</h6>
+            <h6> Minimum Temperature</h6>
             <h3>${dataWeather.main.temp_min}<sup>°</sup>C</h3>
         </div>
 
@@ -101,17 +101,3 @@ function showWeather() {
 }
 
 btnElement.addEventListener('click', showWeather)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
